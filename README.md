@@ -78,23 +78,3 @@ These are mounted into containers and safe across restarts.
 License
 
 MIT License © 2025 Jacko88888
-
-✅ Instructions to Update in GitHub
-
-Go to your repo: authentik-docker
-.
-
-Click README.md → ✏️ Edit this file.
-
-Delete everything inside.
-
-Paste the content above.
-
-Scroll down → write commit message:
-
-Update README with full setup instructions
-
-
-Select Commit directly to main branch.
-
-Hit Commit changes.
