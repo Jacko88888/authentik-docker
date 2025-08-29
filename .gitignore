@@ -1,0 +1,21 @@
+# OS cruft
+.DS_Store
+
+# Python/venv (some images drop these)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# dotenv & secrets
+.env
+*.env
+*.env.*
+
+# docker
+*.log
+*.pid
+docker-data/
+volumes/
+data/
+secrets/
