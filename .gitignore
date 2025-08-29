@@ -1,21 +1,23 @@
-# OS cruft
+# OS/Editor
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-# Python/venv (some images drop these)
+# Python/Django-ish leftovers (just in case)
 __pycache__/
 *.pyc
-.venv/
-venv/
 
-# dotenv & secrets
-.env
-*.env
-*.env.*
-
-# docker
+# Logs/Backups
 *.log
-*.pid
-docker-data/
-volumes/
-data/
-secrets/
+*.bak
+*.tmp
+
+# Docker runtime data (never commit)
+postgres_data/
+redis/
+media/
+db/
+.env
+.env.*
+!.env.example
